@@ -1,0 +1,393 @@
+body{
+    font-family: "Love Light", cursive;
+    padding: 60px 0px;
+    box-sizing: border-box;
+}
+
+.body__enero{
+   padding: 60px 0px;
+}
+
+
+
+
+.body__meses{
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: url(Assets/fondo.avif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header .header__img{
+    width: 10%;
+}
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgb(223, 223, 223);
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+.main .main__texto{
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 15px;
+   
+}
+.footer a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1.26em;
+    background-color: rgba(0, 0, 255, 0.404);
+    padding: 7px;
+    font-weight: 600;
+}
+
+.enero{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+    margin-top: 2px;
+}
+
+.febrero{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 2px;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+    
+}
+
+.marzo{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+}
+
+.abril{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  -5px -5px 25px rgb(255, 0, 0);
+}
+
+.mayo{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  -5px -5px 25px rgb(255, 0, 0);
+}
+
+.junio{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+}
+
+.julio{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);px black;
+}
+
+.agosto{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  -5px -5px 25px rgb(255, 0, 0);
+}
+
+.septiembre{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: flex-start;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  -5px -5px 25px rgb(255, 0, 0);
+}
+
+.octubre{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+}
+
+.noviembre{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: flex-end;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+}
+
+.diciembre{
+    background-color: beige;
+    width: 30%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: center;
+    box-shadow:  5px -5px 25px rgb(255, 0, 0);
+}
+
+.main__meses{
+    display: flex;
+    flex-direction: column;
+}
+
+.main__meses div a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 0px 0px 10px black;
+    font-weight: 900;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.adi{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 9px red;
+}
+
+.body__enero{
+    background-color: antiquewhite;
+}
+
+.container_carrusel {
+    
+   display: flex;
+   justify-content: center;
+}
+.slider_container{
+    width: 192px;
+    height: auto;
+    margin: 50px 0 auto;
+    overflow: hidden;
+    
+    
+}
+
+.slider_container ul{
+    padding: 0;
+    display: flex;
+    width: 1000%;
+   
+    
+}
+
+.slider_container ul li{
+    width: 192px;
+    list-style: none;
+
+}
+
+.slider_container ul img{
+   
+    width: 192px;
+    animation: movimientoslider 50s infinite alternate ease-in-out;
+}
+
+.texto__enero{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    text-shadow: 0px 0px 10px rgb(2, 82, 255);
+    box-sizing: border-box;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+@keyframes movimientoslider {
+    
+    0%{transform: translateX(0%);}
+    7%{transform: translateX(0%);}
+
+    10%{transform: translateX(-100%);}
+    17%{transform: translateX(-100%);}
+
+    20%{transform: translateX(-200%);}
+    27%{transform: translateX(-200%);}
+
+    30%{transform: translateX(-300%);}
+    37%{transform: translateX(-300%);}
+
+    40%{transform: translateX(-400%);}
+    47%{transform: translateX(-400%);}
+
+    50%{transform: translateX(-500%);}
+    57%{transform: translateX(-500%);}
+
+    60%{transform: translateX(-600%);}
+    67%{transform: translateX(-600%);}
+
+    70%{transform: translateX(-700%);}
+    77%{transform: translateX(-700%);}
+
+    80%{transform: translateX(-800%);}
+    87%{transform: translateX(-800%);}
+
+    90%{transform: translateX(-900%);}
+    100%{transform: translateX(-900%);}
+}
+
+.container_video{
+  margin-top: 30px;
+   text-align: center;
+}
+
+.container_video video{
+    width: 200px;
+}
+
+.body__febrero{
+    background-color: rgb(236, 188, 188);
+ }
+
+ .body__marzo{
+    background-color: rgb(209, 235, 245);
+ }
+
+ .poema{
+    box-shadow: 0px 0px 30px red;
+    margin: 25px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    font-size: .8em;
+    
+ }
+
+ .namepoema{
+    text-align: right;
+ }
+
+ .body__abril{
+    background-color: rgb(206, 29, 64);
+ }
+
+ .textodos{
+    color: hsl(0, 0%, 100%);
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 900;
+    padding: 20px;
+    box-sizing: border-box;
+ }
+
+ 
